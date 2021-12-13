@@ -1,8 +1,6 @@
-send.addEventListener("click", fnc);
-function fnc(){
-    if (a.value) (b.value){
-      alert('Введите верные данные');
-      return;
-    }
-    c.value = ((a.value) + (b.value));
-}
+btn.addEventListener("click",f_out);
+
+   function f_out (){
+       c = Number(b.value) + Number(a.value);
+       res.innerHTML = c;
+   }
