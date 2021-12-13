@@ -4,5 +4,6 @@ function fnc(){
       alert('Введите верные данные');
       return;
     }
-    c 2.value = (a 2.value) + (b 2.value);
+    c 2.value = Number(a.value) + Number(b.value);
+    res.innerHTML = q;
 }
