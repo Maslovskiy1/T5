@@ -1,6 +1,6 @@
 send.addEventListener("click", fnc);
 function fnc(){
-    if (Number(a.value) || Number(b.value)){
+    if (a.value) (b.value){
       alert('Введите верные данные');
       return;
     }
