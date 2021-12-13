@@ -4,5 +4,5 @@ function fnc(){
       alert('Введите верные данные');
       return;
     }
-    c.value = ((1 + parseInt(a.value)) / (1 + parseInt(b.value))) - 1 + ' %';
+    c.value = (( parseInt(a.value)) + ( parseInt(b.value)));
 }
