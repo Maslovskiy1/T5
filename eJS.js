@@ -1,9 +1,8 @@
 send.addEventListener("click", fnc);
 function fnc(){
-    if(isNaN(parseInt(a 2.value)) || isNaN(parseInt(b 2.value))){
+    if(isNaN(parseInt(a.value)) || isNaN(parseInt(b.value))){
       alert('Введите верные данные');
       return;
     }
-    c 2.value = Number(a.value) + Number(b.value);
-    res.innerHTML = q;
+    c.value = ((1 + parseInt(a.value)) / (1 + parseInt(b.value))) - 1 + ' %';
 }
