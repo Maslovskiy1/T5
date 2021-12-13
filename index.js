@@ -3,7 +3,7 @@ function fnc(){
     let val_a = a.value;
     let val_b = b.value;
     let val_c = a + b;
-    val_Q = parseInt(val_M) / parseInt(val_P)* parseInt(val_V);
-    QQ.value = val_Q;
+    val_C = parseInt(val_A) + parseInt(val_B);
+    CC.value = val_C;
 
 }
