@@ -1,6 +1,6 @@
 send.addEventListener("click", fnc);
 function fnc(){
-    if(isNaN(parseInt(a.value)) || isNaN(parseInt(b.value))){
+    if(isNaN(a.value)) || (isNaN(b.value)){
       alert('Введите верные данные');
       return;
     }
