@@ -1,7 +1,8 @@
 send.addEventListener("click", fnc);
 function fnc(){
-    let val_a = a.value;
-    let val_b = b.value;
-    let val_c = a+b;
-    val_c = parseInt(val_a) + parseInt(val_b)
-    cc.value = val_c;
+    if(isNaN(parseInt(a 2.value)) || isNaN(parseInt(b 2.value))){
+      alert('Введите верные данные');
+      return;
+    }
+    c 2.value = (a 2.value) + (b 2.value);
+}
